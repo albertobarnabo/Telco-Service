@@ -1,0 +1,227 @@
+@charset "ISO-8859-1";
+
+p {
+	margin: 0px;
+}
+
+h1 {
+	margin: 0px;
+}
+
+h2 {
+	margin: 0px;
+}
+
+h3 {
+	margin: 0px;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+.topbar {
+	position: absolute;
+	background-image: none;
+	background-color: rgba(11, 16, 23, 0.8);
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 16.72%;
+}
+
+.title {
+	position: absolute;
+	font-size: 64px;
+	font-weight: bold;
+	text-align: center;
+	color: rgb(150, 230, 230);
+	transform-origin: 50% 50% 0px;
+	border-image-source: none;
+	border-image-width: 1;
+	border-image-outset: 0;
+	border-image-repeat: stretch;
+	border-color: transparent;
+	height: 47.85%;
+	width: 15%;
+	left: 42%;
+	top: 22%;
+}
+
+.gwd-span-1dh7 {
+	color: rgb(232, 14, 33);
+}
+
+.gwd-div-l4sh {
+	width: 100%;
+	height: 100%;
+	left: 0%;
+	top: 0%;
+}
+
+.gwd-page-wvkd {
+	width: 100%;
+	height: 100%;
+}
+
+.pagecontainer {
+	position: absolute;
+	width: 100%;
+	height: 83%;
+	background-image: none;
+	background-color: rgb(246, 247, 250);
+	left: 0%;
+	top: 17.01%;
+}
+
+.mainform {
+	position: absolute;
+	left: 27.02%;
+	top: 3.89%;
+	width: 45.99%;
+	background-image: none;
+	background-color: rgba(124, 209, 250, 0.34);
+	border-radius: 30px;
+	height: 92.34%;
+}
+
+.gwd-h3-1iyu {
+	color: rgb(38, 125, 125);
+	font-family: "Source Sans Pro";
+	font-weight: 600;
+	position: absolute;
+	text-align: center;
+	transform-origin: 50% 50% 0px;
+	width: 90%;
+	left: 4.99%;
+	height: 10%;
+	top: 2.1%;
+}
+
+.gwd-br-1lho {
+	color: rgb(38, 125, 125);
+	font-family: "Source Sans Pro";
+	font-weight: 600;
+	text-align: center;
+}
+
+.user {
+	position: absolute;
+	color: rgb(38, 125, 125);
+	transform-origin: 1px 1px 0px;
+	width: 19%;
+	height: 5%;
+	left: 40.46%;
+	top: 16.07%;
+}
+
+.email {
+	position: absolute;
+	color: rgb(38, 125, 125);
+	transform-origin: 50% 50% 0px;
+	height: 5%;
+	top: 34.05%;
+	width: 12%;
+	left: 43.97%;
+}
+
+.pass {
+	position: absolute;
+	color: rgb(38, 125, 125);
+	height: 5%;
+	width: 19%;
+	left: 40.46%;
+	top: 52.61%;
+}
+
+.userinput {
+	position: absolute;
+	transform-origin: 60.9875px -13.2245px 0px;
+	width: 60%;
+	border-style: double;
+	border-width: 3px;
+	left: 19.03%;
+	top: 24.87%;
+	height: 5%;
+	border-radius: 15px;
+}
+
+.emailinput {
+	position: absolute;
+	width: 60%;
+	height: 5%;
+	border-width: 3px;
+	border-style: double;
+	border-radius: 15px;
+	left: 19.03%;
+	top: 42.28%;
+}
+
+.pwdinput {
+	top: 61.6%;
+}
+
+.alreadyreg {
+	color: rgb(52, 88, 88);
+	display: block;
+	font-family: "Source Sans Pro";
+	font-size: 18px;
+	position: absolute;
+	top: 82%;
+	left: 18%;
+	font-weight: bold;
+}
+
+.gwd-br-1ohg {
+	color: rgb(52, 88, 88);
+	font-family: "Source Sans Pro";
+	font-size: 18px;
+}
+
+.loginbutton {
+	color: rgb(55, 90, 90);
+	display: block;
+	font-family: "Source Sans Pro";
+	font-size: 18px;
+	position: absolute;
+	top: 82%;
+	left: 41%;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.regbutton {
+	display: block;
+	position: absolute;
+	width: 24%;
+	height: 10%;
+	border-radius: 8px;
+	border-width: 3px;
+	background-image: none;
+	background-color: rgb(38, 99, 229);
+	font-size: 22px;
+	color: rgb(248, 249, 250);
+	font-family: "Source Sans Pro";
+	font-weight: 600;
+	font-style: normal;
+	left: 64.84%;
+	top: 78.06%;
+}
+
+#resultmessage {
+	position: absolute;
+	color: rgb(38, 125, 125);
+	height: 5%;
+	left: 27.46%;
+	top: 70.61%;
+	font-family: "Source Sans Pro";
+	font-weight: 600;
+	text-align: center;
+}
+
+input[type = text], input[type=password]{
+	text-align: center;
+	font-family: "Source Sans Pro";
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>registration page</title>
+
+<script src="JavaScript/registrationManagement.js" charset="utf-8" defer></script>
+<script src="JavaScript/utils.js" charset="utf-8" defer></script>
+
+<link rel="stylesheet" type="text/css" media="all"
+	href="css/registrationstyle.css" />
+
+</head>
+
+<body>
+	<div class="gwd-page-content page1-content gwd-div-l4sh">
+		<div class="topbar">
+			<span class="title">TEL<span class="gwd-span-1dh7">CO</span></span>
+		</div>
+	</div>
+	<div class="pagecontainer">
+
+		<div class="mainform">
+
+
+
+			<button id="registrationbutton" class="regbutton">Register</button>
+			<span id="loginbut" class="loginbutton">Login</span> <span
+				class="alreadyreg">Already Registered?<br class="gwd-br-1ohg"></span>
+
+			<h3 class="gwd-h3-1iyu">
+				Welcome!&nbsp;<br class="gwd-br-1lho">Please fill out the form
+				below to create a new account
+			</h3>
+			<h2 class="user">Username</h2>
+			<h2 class="email">Email</h2>
+			<h2 class="pass">Password</h2>
+
+			<form action=# method="POST" id="registrationform">
+
+				<input type="text" id="username" class="userinput"
+					placeholder=" Enter Username" name="username"> <input
+					type="text" id="email" class="emailinput"
+					placeholder=" Enter your email" name="email"> <input
+					type="password" id="email_1" class="emailinput pwdinput"
+					placeholder=" Create a password (max 45 characters)"
+					name="password">
+
+				<p id="resultmessage"></p>
+			</form>
+
+		</div>
+
+	</div>
+</body>
+
+</html>

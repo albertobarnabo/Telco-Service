@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>buy page</title>
+  
+    <script src="JavaScript/buypageManagement.js" charset="utf-8" defer></script>
+	<script src="JavaScript/utils.js" charset="utf-8" defer></script>
+  
+  <link rel="stylesheet" type="text/css" media="all" href="css/buypagestyle.css"/>
+ 
+</head>
+
+<body>	
+	
+	<div class = "topbar">
+		<span class="title">TEL<span class="co">CO</span></span>
+		<button id="loginbutton" class="login">Login</button>
+ 			<button id="logoutbutton" class="login">Logout</button>
+ 			<p class="welcome" id="welcomemessage"><br>	
+ 			
+ 		
+	</div>			
+	<img id="homeIcon" src="http://localhost:8080/Telco_Service_WEB/GetImage?name=home.jpg"/>
+	
+	<h3 id="greetings"></h3>
+	
+	<span id="chooseValidity">Choose the validity period</span>
+	<span id="chooseOptional">Choose none or more Optional Products</span>	
+	<form id="selectionForm">
+			
+			<select id="validitySelectId" name="validity" required>
+				<option value="12">12 Months</option>
+				<option value="24">24 Months</option>
+				<option value="36">36 Months</option>
+			</select>
+			<input type="date" id="start" name="startDate" required>
+		</form>
+		
+	<span id="startDateId">Select the start date of your subscription</span>
+		
+	<div class="relative">
+			
+		<p id="servicetitle">The following services are included in this package:</p>
+		
+		
+		<table id="serviceDetailsContainer" class="relative"></table>
+		
+		<div id="amountContainer" class="relative">
+			<p id="amountAlert">The total amount for this order is:</p>
+			<div id="amount"></div>
+			<button id="confirmButton" class="confirm">Confirm Order</button>
+		</div>
+		
+		
+		
+	</div>
+	
+	<div id="bottomPage">
+		<p id="alert"></p>
+	</div>
+	
+	
+	
+</body>
+
+<body>
+
+</body>
+</html>

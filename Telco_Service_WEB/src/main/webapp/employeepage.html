@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>employee page</title>
+  
+    <script src="JavaScript/employeeManagement.js" charset="utf-8" defer></script>
+	<script src="JavaScript/utils.js" charset="utf-8" defer></script>
+  
+  <link rel="stylesheet" type="text/css" media="all" href="css/employeepagestyle.css"/>
+ 
+</head>
+
+	<body>
+		<div class="gwd-page-content page1-content gwd-div-l4sh">
+		
+				
+		<div class="topbar"><span class="title">TEL<span class="gwd-span-1dh7">CO</span></span></div>
+		
+		<div class = "mainpage">
+		
+  			<button id="logoutbutton" class="login">Logout</button>
+  			<button id="salesreport" class="login gwd-button-1xbm">Sales Report</button>
+  			<p class="welcome" id="welcomemessage"><br>
+		
+		</div>
+		
+		</div>	
+		
+	<!-- DIV CONTAINING THE FORM TO CREATE AN OPTIONAL PRODUCT -->
+	<div class="generalDivStyle topLeftDiv optionalProductDiv" id="opt_prod_div">
+	    <h2 class="generalFillText gwd-h2-xh2g gwd-h2-p44u">Fill the form to create an Optional Product</h2>
+	    <form action=# method="POST" id="optionalProductForm">
+		    <input type="text" id="optprodname" class="inputName" placeholder="  Optional Product Name *" name="optproductname">
+		    <input type="text" id="optfee" class="generalInputText gwd-input-1d2c" placeholder="   Monthly Fee *" name="optproductfee">
+		    <button id="opt_prod_creation_button" class="generalCreateButton secondCreateButtonRule" type="submit">Create</button>
+	    </form>
+  	</div>
+  	<p id="optionalProductCreationResult"></p>
+  	
+  	<!-- DIV CONTAINING THE FORM TO CREATE A SERVICE -->
+    <div class="generalDivStyle serviceDivStyle" id="createService">
+	    <h2 class="generalFillText gwd-h2-bi2e">Fill the form to create a Service</h2>
+	    
+	    <form id="serviceCreationForm" action=# method="POST">
+	    
+		    <input type="text" id="servicename" class="inputName gwd-input-axt2" placeholder="  Service Name *" name="name" required>
+		    <input type="text" id="minutes" class="generalInputText gwd-input-1640 gwd-input-11ca" placeholder="   Minutes" name="minutes">
+		    <input type="text" id="gigabytesFee" class="generalInputText gwd-input-1640 gwd-input-1d5u" placeholder="   Extra Gigabytes Fee" name="gigabytesFee">
+		    <input type="text" id="gigabytes" class="generalInputText gwd-input-1640 gwd-input-1c0x" placeholder="   Gigabytes" name="gigabytes">
+		    <input type="text" id="smsFee" class="generalInputText gwd-input-1640 gwd-input-13wo" placeholder="   Extra SMS Fee" name="smsFee">
+		    <input type="text" id="sms" class="generalInputText gwd-input-1640 gwd-input-hv9x" placeholder="   SMS" name="sms">
+		    <input type="text" id="minutesFee" class="generalInputText gwd-input-1640 gwd-input-2q0a" placeholder="   Extra Minutes Fee" name="minutesFee">
+		    
+	    </form>
+	    
+	    <button id="service_creation_button" class="generalCreateButton gwd-button-1l42" name="servicecreatebutton" type="submit">Create</button>
+	    <select id="select_service_type" class="gwd-select-6ik1" required>
+		    	<option value="fixed_phone" selected="selected"> Fixed Phone</option>
+		    	<option value="fixed_internet"> Fixed Internet</option>
+		    	<option value="mobile_phone"> Mobile Phone</option>
+		    	<option value="mobile_internet"> Mobile Internet</option>
+		</select>
+	    
+	    <span class="gwd-span-1kz7">Type:</span>
+	    <img class="imgtype" id="imagetype" src = "http://localhost:8080/Telco_Service_WEB/GetImage?name=fixed_phone.jpg"></img>
+   	</div>
+   	<div>
+  		<p id="serviceCreationResult"></p>
+  	</div>
+  	
+  <!-- DIV CONTAINING THE FORM TO CREATE AN PACKAGE -->
+  <div class="generalDivStyle topLeftDiv packageDiv" id="createPackage" data-gwd-tl-locked="">
+    <h2 class="generalFillText gwd-h2-xh2g">Fill the form to create a Service Package<br></h2>
+    
+    <form id="servicePackageCreationForm" action=# method="POST">
+	    <input type="text" id="servpackagename" class="inputName servPackInputName" placeholder="Service Package Name *" name="servpackname" required>
+	    
+	    <input type="text" id="inputText12Id" class="generalInputText packInputText inputText12" placeholder="   12 Month Fee" name="fee12">
+	    <input type="text" id="inputText24Id" class="generalInputText packInputText inputText24" placeholder="   24 Month Fee" name="fee24">
+	    <input type="text" id="inputText36Id" class="generalInputText packInputText inputText36" placeholder="   36 Month Fee" name="fee36">
+	    
+	    <button id="createPackageButtonId" class="generalCreateButton secondCreateButtonRule createPackageButton" name="createPackageButton">Create</button>
+	    
+	    
+	    <select name="selectedServices" id="serviceSelectId" class="generalSelectRule serviceSelect" multiple="multiple" required></select>
+	    
+	    <select name="selectedOptionalProducts" id="optionalSelectId" class="generalSelectRule optionalSelect" multiple="multiple" required></select>
+    </form>
+    
+    <p id="serviceSelectText">Select one or more Services</p>
+    <p id="optionalSelectText">Select zero or more Optional Products</p>
+    
+    <div id="bottomPage">
+		 <p id="servicePackageCreationResult"></p>
+	</div>
+   
+    
+  </div>
+  
+  <div id="salesReportContainer"></div>
+  
+	</body>
+
+</html>

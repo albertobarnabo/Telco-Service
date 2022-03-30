@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>loginpage</title>
+
+<script src="JavaScript/loginManagement.js" charset="utf-8" defer></script>
+<script src="JavaScript/utils.js" charset="utf-8" defer></script>
+
+<link rel="stylesheet" type="text/css" media="all"
+	href="css/loginstyle.css" />
+
+</head>
+
+<body class="document-body">
+
+	<div class="gwd-page-content page1-content gwd-div-l4sh">
+		<div class="gwd-div-141l">
+			<span class="title">TEL<span class="gwd-span-1dh7">CO</span></span>
+		</div>
+
+		<span class="subtitle">Choose Account Type</span> <img
+			class="empimage" id="employeeImage"></img> <img class="consimage"
+			id="consumerImage"></img> <input type="radio" id="radio_1"
+			class="consumerRadio" name="login_type" value="consumer"> <span
+			class="employeeText">Employee</span> <span class="consumerText">Consumer</span>
+		<input type="radio" id="radio_2" class="employeeRadio"
+			name="login_type" value="employee">
+
+		<div class="gwd-div-92u5" id="loginDiv"></div>
+
+		<form action=# method="POST">
+			<input type="text" id="username" class="userinput"
+				placeholder="  Username" name="username" required> <input
+				type="password" id="password" class="pwdinput"
+				placeholder="  Password" name="pwd" required>
+			<p id="errormessage"></p>
+
+			<span class="welcomeText">Welcome!&nbsp;<br>Please fill
+				out the form below to get started
+			</span>
+			<button type="submit" id="loginbutton_id" class="loginbutton">Login</button>
+		</form>
+
+		<span class="noAccount">No Account?</span> <span class="signUp"
+			id="signup">Signup<br></span> <span class="or" id="or">or<br></span>
+		<span class="continue" id="continue">Continue as guest<br></span>
+
+	</div>
+
+
+</body>
+
+</html>

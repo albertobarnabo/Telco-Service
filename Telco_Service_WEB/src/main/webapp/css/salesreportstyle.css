@@ -1,0 +1,137 @@
+@charset "ISO-8859-1";
+
+.relative{
+	position: relative;
+}
+
+.topbar {
+      position: absolute;
+      text-align: center;
+      background-color: rgba(11, 16, 23, 0.8);
+      border-image-repeat: stretch;
+      border-color: transparent;
+      height: 16.72%;
+      width: 100%;
+      left: 0%;
+      top: 0%;
+}
+
+.co {
+   color: rgb(232, 14, 33);
+ }
+ 
+.welcome {
+  position: absolute;
+  transform-origin: 50% 50% 0px;
+  left: 2%;
+  top: 20%;
+  width: 26%;
+  height: 6%;
+  font-size: 22px;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  color: rgb(150, 230, 230);
+}
+ 
+ #homeIcon{
+	position: absolute;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	left: 81%;
+	top: 3.6%;
+	border-style: outset;
+	cursor: pointer;
+}
+
+#homeIcon:hover{
+ 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+ 
+ .title {
+     position: absolute;
+     font-size: 64px;
+     font-weight: bold;
+     text-align: center;
+     color: rgb(150, 230, 230);
+     border-image-repeat: stretch;
+     border-color: transparent;
+     height: 47.85%;
+     width: 15%;
+     left: 42%;
+     top: 20%;
+}
+
+#resultdiv{
+	visibility: hidden;
+	position: fixed;
+	height: 50%;
+	width: 40%;
+	left: 30%;
+	top: 25%;
+	border: outset;
+	border-radius: 20px;
+	background-color: white;
+	z-index: 1;
+}
+
+#reportTable{
+	position: relative;
+	margin-top: 9%;
+	width: 90%;
+	left: 5%;
+	font-family: "Source Sans Pro";
+	top: 20%;
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+	border: solid;
+	border-radius: 15px;
+	
+}
+
+#reportTable td{
+	border: outset;
+}
+
+table th {
+	border: outset;
+	background-color: lightblue;
+}
+
+.tables{
+	position: relative;
+	margin-top: 2%;
+	width: 90%;
+	left: 5%;
+	font-family: "Source Sans Pro";
+	top: 20%;
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+	border: solid;
+	border-radius: 15px;
+}
+
+.tables td{
+	border: outset;
+}
+
+.tabletitle{
+	font-size: 25px;
+	font-weight: bold;
+	color: slateblue;
+	padding-bottom: 10px;
+}
+
+.firstCell{
+	padding: 10px;
+	font-weight: bold;
+}
+
+.totalSalesTable{
+	width: 100%;
+}
+ 
+ 
+

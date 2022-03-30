@@ -1,0 +1,446 @@
+@charset "ISO-8859-1";
+
+p {
+  margin: 0px;
+}
+h1 {
+  margin: 0px;
+}
+h2 {
+  margin: 0px;
+}
+h3 {
+  margin: 0px;
+}
+
+html, body{
+	  width: 100%;
+      height: 100%;
+      margin: 0px;
+}
+
+
+.topbar {
+      position: absolute;
+      background-image: none;
+      background-color: rgba(11, 16, 23, 0.8);
+      left: 0%;
+      top: 0%;
+      width: 100%;
+      height: 16.72%;
+    }
+    
+.title {
+      position: absolute;
+      font-size: 64px;
+      font-weight: bold;
+      text-align: center;
+      color: rgb(150, 230, 230);
+      transform-origin: 50% 50% 0px;
+      border-image-source: none;
+      border-image-width: 1;
+      border-image-outset: 0;
+      border-image-repeat: stretch;
+      border-color: transparent;
+      height: 47.85%;
+      width: 15%;
+      left: 42%;
+      top: 22%;
+    }
+ .gwd-span-1dh7 {
+   color: rgb(232, 14, 33);
+ }
+    
+.gwd-div-l4sh {
+      width: 100%;
+      height: 100%;
+    }
+.gwd-page-wvkd {
+  width: 100%;
+  height: 100%;
+}
+
+.login {
+      position: absolute;
+      height: 7%;
+      width: 7%;
+      top: 4.86%;
+      margin: 0px;
+      border-radius: 15px;
+      overflow: visible;
+      background-image: none;
+      background-color: rgb(23, 20, 20);
+      color: rgb(250, 245, 245);
+      font-family: "Source Sans Pro";
+      font-size: 18px;
+      font-weight: 600;
+      left: 90.32%;
+    }
+    
+.login:hover{
+ 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+ 
+    .welcome {
+      position: absolute;
+      transform-origin: 50% 50% 0px;
+      left: 2.66%;
+      top: 5.73%;
+      width: 22.56%;
+      height: 5.23%;
+      font-size: 22px;
+      font-family: "Source Sans Pro";
+      font-weight: 600;
+      color: rgb(150, 230, 230);
+    }
+    .generalDivStyle {
+      position: absolute;
+      background-image: none;
+      background-color: rgba(124, 209, 250, 0.34);
+      border-radius: 30px;
+      border-style: outset;
+      border-image-source: none;
+      border-image-width: 1;
+      border-image-outset: 0;
+      border-image-repeat: stretch;
+      border-color: rgb(7, 13, 76);
+      border-width: 3px;
+      width: 60%;
+      height: 135px;
+      left: 183px;
+      top: 137px;
+    }
+    .generalFillText {
+      color: rgb(1, 86, 153);
+      font-family: "Source Sans Pro";
+      position: absolute;
+      left: 16px;
+      top: 13px;
+    }
+    .inputName {
+      position: absolute;
+      transform-origin: 50% 50% 0px;
+      border-style: double;
+      border-radius: 15px;
+      left: 4.25%;
+      top: 47.41%;
+      height: 28.15%;
+      width: 43%;
+    }
+    .generalInputText {
+      position: absolute;
+      transform-origin: 50% 50% 0px;
+      height: 38px;
+      width: 172px;
+      top: 62px;
+      border-style: double;
+      border-radius: 15px;
+      left: 430px;
+    }
+    .generalCreateButton {
+      position: absolute;
+      width: 120px;
+      transform-origin: 50% 50% 0px;
+      height: 54px;
+      top: 52px;
+      background-color: rgb(22, 115, 190);
+      border-radius: 15px;
+      font-family: "Source Sans Pro";
+      font-weight: bold;
+      font-size: 20px;
+      color: rgb(251, 253, 255);
+      left: 654px;
+    }
+    
+.generalCreateButton:hover{
+ 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+    .serviceDivStyle {
+      width: 800px;
+      height: 400px;
+      left: 24%;
+      top: 330px;
+    }
+    .topLeftDiv {
+      left: 274px;
+      top: 194px;
+    }
+    .gwd-button-1l42 {
+      left: 658px;
+      top: 324px;
+    }
+    .gwd-select-6ik1 {
+      position: absolute;
+      transform-origin: 50% 50% 0px;
+      background-image: none;
+      background-color: rgb(209, 237, 243);
+      border-width: 2px;
+      border-radius: 10px;
+      width: 16.25%;
+      height: 11%;
+      left: 81%;
+      border-style: solid;
+      top: 5%;
+    }
+    .gwd-button-1zgd {
+      left: 81.75%;
+      top: 38.52%;
+      width: 15%;
+      height: 40%;
+    }
+    .gwd-span-1kz7 {
+      position: absolute;
+      font-family: "Source Sans Pro";
+      font-size: 24px;
+      font-weight: bold;
+      color: rgb(1, 86, 153);
+      left: 572px;
+      top: 20px;
+    }
+    .gwd-input-1640 {
+      left: 31px;
+      top: 156px;
+    }
+    .gwd-input-axt2 {
+      left: 3.88%;
+      height: 9.5%;
+      top: 19.25%;
+      width: 54.25%;
+    }
+    .gwd-input-2q0a {
+      left: 36.63%;
+      top: 39%;
+      width: 21.5%;
+      height: 9.5%;
+    }
+    .gwd-input-hv9x {
+      left: 31px;
+      top: 240px;
+    }
+    .gwd-input-13wo {
+      left: 293px;
+      top: 240px;
+    }
+    .gwd-input-1c0x {
+      top: 324px;
+    }
+    .gwd-input-1d5u {
+      left: 293px;
+      top: 324px;
+    }
+    .gwd-input-11ca {
+      left: 3.88%;
+      top: 39%;
+      width: 21.5%;
+      height: 9.5%;
+    }
+    .gwd-h2-bi2e {
+      left: 31px;
+      top: 20px;
+    }
+    .gwd-h2-xh2g {
+      top: 22px;
+      left: 34px;
+    }
+    .packageDiv {
+      left: 20%;
+      top: 780px;
+      transform-origin: 50% 50% 0px;
+      height: 400px;
+    }
+    .optionalProductDiv {
+      left: 20%;
+      top: 150px;
+    }
+    .createPackageButton {
+      width: 14%;
+      height: 14%;
+      left: 82.13%;
+      top: 8.52%;
+    }
+    .servPackInputName {
+      height: 10%;
+      top: 20.04%;
+    }
+    .packInputText {
+      left: 34px;
+      top: 166px;
+    }
+    .inputText24 {
+      left: 30.5%;
+      top: 40%;
+      width: 21.5%;
+      height: 10%;
+    }
+    .inputText36 {
+      left: 57%;
+      top: 40%;
+      width: 21.5%;
+      height: 10%;
+    }
+    .inputText12 {
+      left: 4.25%;
+      top: 40%;
+      width: 21.5%;
+      height: 10%;
+    }
+    .addDivStyle {
+      top: 1100px;
+    }
+    .gwd-button-1mwu {
+      left: 36.5%;
+      top: 69.63%;
+    }
+    .gwd-button-1sve {
+      font-size: 16px;
+      left: 78.88%;
+    }
+    .generalSelectRule {
+      position: absolute;
+      width: 200px;
+      transform-origin: 50% 50% 0px;
+      background-color: rgb(208, 235, 236);
+      border-width: 2px;
+      border-radius: 10px;
+      height: 90px;
+    }
+    .optionalSelect {
+      left: 18%;
+      top: 70%;
+    }
+    .serviceSelect {
+      left: 61%;
+      top: 70%;
+    }
+    .gwd-span-7tpb {
+      width: 183px;
+      height: 37px;
+      transform-origin: 91.5998px 18.125px 0px;
+      left: 83px;
+      top: 98px;
+    }
+    .gwd-button-p7dp {
+      left: 33.25%;
+      top: 67.04%;
+    }
+    .gwd-input-1d2c {
+      left: 53.75%;
+      top: 45.93%;
+      width: 21.5%;
+      height: 28.15%;
+    }
+    .gwd-h2-p44u {
+      left: 34px;
+      top: 22px;
+    }
+    
+    .gwd-button-1xbm {
+      left: 81.15%;
+      top: 4.87%;
+    }
+    .imgtype{
+      position: absolute;
+      left: 75%;
+      top:100px;
+      width: 150px;
+      height: 150px;
+      border-radius: 15px;
+    }
+	#optionalSelectText{
+	  position: absolute;
+	  color: rgb(1, 86, 153);
+      font-family: "Source Sans Pro";
+      position: absolute;
+      left: 14%;
+      top: 60%;
+      font-weight: bold;
+      font-size: 18px;
+	  
+	}
+	#serviceSelectText{
+	  position: absolute;
+	  color: rgb(1, 86, 153);
+      font-family: "Source Sans Pro";
+      position: absolute;
+      left: 60%;
+      top: 60%;
+      font-weight: bold;
+      font-size: 18px;
+	}
+	.secondCreateButtonRule{
+	  left: 80%;
+	}
+	
+	#serviceCreationResult{
+	  position: absolute;
+      font-family: "Source Sans Pro";
+      position: absolute;
+      left: 40%;
+      top: 104%;
+      font-weight: bold;
+      font-size: 18px;
+	}
+	
+	#optionalProductCreationResult{
+	  position: absolute;
+      font-family: "Source Sans Pro";
+      position: absolute;
+      left: 43%;
+      top: 42%;
+      font-weight: bold;
+      font-size: 18px;
+	}
+	
+	#servicePackageCreationResult{
+	  position: relative;
+	  top: -10px;
+      font-family: "Source Sans Pro";
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+	}
+	
+	#serviceSelectId * {
+	  border-radius: 15px;
+	  cursor: pointer;
+	  text-align: center;
+	  font-family: "Source Sans Pro";
+	  font-size: 15px;
+	  font-weight: bold;
+	  border: 2px solid transparent;
+	  border-color: #fff transparent transparent transparent;
+	}
+	
+	#optionalSelectId * {
+	  border-radius: 15px;
+	  cursor: pointer;
+	  text-align: center;
+	  font-family: "Source Sans Pro";
+	  font-size: 15px;
+	  font-weight: bold;  
+	  border: 2px solid transparent;
+	  border-color: #fff transparent transparent transparent;
+	}
+	
+#salesReportContainer {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 5%; /* Location of the box */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+#bottomPage{
+	position: absolute;
+	top: 107%;
+	height: 50px;
+	background-color: white;
+	margin-top: 1%;
+	width: 100%;
+}

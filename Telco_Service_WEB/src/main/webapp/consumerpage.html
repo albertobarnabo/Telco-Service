@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>home page</title>
+  
+    <script src="JavaScript/consumerManagement.js" charset="utf-8" defer></script>
+	<script src="JavaScript/utils.js" charset="utf-8" defer></script>
+  
+  <link rel="stylesheet" type="text/css" media="all" href="css/consumerpagestyle.css"/>
+ 
+</head>
+
+<body>		
+		<div class = "topbar">
+			
+			<span class="title">TEL<span class="co">CO</span></span>
+			<button id="loginbutton" class="login">Login</button>
+	 			<button id="logoutbutton" class="login">Logout</button>
+	 			<p class="welcome" id="welcomemessage"><br>		
+		</div>			
+		
+		<div class="mainpage">
+			
+			<table id="unpaidOrders" class="ordersContainer"></table>
+			<!-- Slideshow container -->
+			<div id="slideshow" class="slideshow-container">
+				
+				<span id="numberDisplay"></span>
+				
+				<!-- Next and previous arrows -->
+				<a id="prevArrow" class="prev">&#10094;</a> 
+				<a id="nextArrow" class="next">&#10095;</a>
+				
+				<p id="motivational1" class="motivational fade-in-text1">Connect</p>
+				<p id="motivational2" class="motivational fade-in-text2">Fast</p>
+				<p id="motivational3" class="motivational fade-in-text3">Everywhere</p>
+			
+				
+				<p id="firstPar">Services included:</p>
+				<div id="servicesContainer"></div>
+				
+				<button id="buyButton">BUY</button>
+				
+				<!-- The dots/circles -->
+				<div id="circles-container" style="text-align: center">			
+			</div>
+			</div>
+			<br>
+		
+			
+			
+			
+			<p id="alert"></p>
+		</div>
+</body>
+
+</html>

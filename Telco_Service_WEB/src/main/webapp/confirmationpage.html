@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>ConfirmationPage</title>
+
+	<script src="JavaScript/confirmationManagement.js" charset="utf-8" defer></script>
+	<script src="JavaScript/utils.js" charset="utf-8" defer></script>
+  
+  <link rel="stylesheet" type="text/css" media="all" href="css/confirmationStyle.css"/>
+</head>
+<body>
+
+	<div class = "topbar">
+		<span class="title">TEL<span class="co">CO</span></span>
+		<p class="welcome" id="welcomemessage"><br>
+	</div>			
+	<img id="homeIcon" src="http://localhost:8080/Telco_Service_WEB/GetImage?name=home.jpg"/>
+	
+	<div id="normalpage">
+		<table id="ordertable"></table>
+		<input type="button" id="paybutton" value="Pay Now!">
+	</div>
+	
+	<div id="resultdiv">
+		<p id="transactionResultText"></p>
+		<img id="resultimg">
+		<input type="button" value="Home Page" id="homebutton">
+	</div>
+	
+</body>
+</html>
